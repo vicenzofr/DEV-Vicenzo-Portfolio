@@ -1,0 +1,88 @@
+@import url('https://fonts.cdnfonts.com/css/burger-free');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Burger Free', sans-serif;
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#logo {
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+    margin: 0 auto; /* Adiciona uma margem automática para centralizar apenas o texto da logo */
+
+ }
+
+ .navbar a{
+    text-decoration: none;
+    font-size: 19px;
+    /* margin: 10px; */
+    color: black;
+
+} 
+
+.navbar {
+    display: flex;
+    gap: 20px;
+  }
+
+.pag img{
+    height: 300px;
+    width: 270px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+    cursor: pointer;  
+}
+
+.pag p{
+    color:black;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    /* opacity: 0; */
+
+}
+
+p:hover{
+    opacity: 100%;
+} 
+
+.pag{
+    height: 60vh;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
