@@ -1,0 +1,155 @@
+*{
+    color: #808080	;
+}
+
+
+body{
+    background: black;
+    font-family: "Roboto", sans-serif ;
+    
+}
+
+
+
+
+.quadrado1{
+    background: #1C1C1C;
+    height: 110px;
+    width: 380px;
+    border-radius: 7px;
+    /* margin-top: 10px; */
+    /* padding: 3px; */
+    
+}
+
+.quadrado1 i{
+    margin: 12px;
+    font-size: 26px;
+    vertical-align: middle; /* Alinha o ícone verticalmente com o texto */
+    cursor: pointer;
+}
+
+.icon-with-text {
+    display: inline-block;
+    font-size: 17px; 
+    cursor: pointer;
+}
+
+.quadrado1 i:hover,.icon-with-text:hover{
+    color: white;
+} 
+
+ /* .all{
+    background: red;
+    height: 80px;
+    width: 110px;
+     align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+}  */
+
+.quadrado2{
+    background:#1C1C1C;
+    height: 700px;
+    width: 380px;
+    margin-top: 7px;
+    border-radius: 7px;
+}
+
+.quadrado2 i{
+    margin: 12px;
+    font-size: 26px;
+    vertical-align: middle;
+}
+
+.playlist,
+.artists{
+    background: #363636	;
+    border: none;
+    border-radius: 22px;
+    height: 27px;
+    width: 64px;
+    cursor: pointer;
+    margin: 10px;
+    color: white;
+}
+
+.playlist:hover,.artists:hover{
+    background: #4F4F4F	 ;
+}
+
+#search{
+    font-size: 20px;
+}
+
+.search{
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 20px;
+}
+.search:hover{
+ background: #4F4F4F	;   
+}
+
+.songs,
+.song2{
+    /* background: red; */
+    width: 360px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 6px;
+    display: flex; /* Usar flexbox para alinhar os elementos em linha */
+    align-items: center; /* Alinhar os elementos verticalmente ao centro */
+    
+}
+
+.songs:hover, .song2:hover{
+    background: #4F4F4F	;
+}
+
+.icarus,
+.zeca{
+    height: 50px;
+    width: 50px;
+    border-radius: 3px;
+    margin: 5px; 
+    margin-right: 10px;
+
+}
+
+/* .icarus-album {
+    display: inline-block;
+
+} */
+
+
+.bk{
+    font-size: 13px;
+}
+
+.icarus-album,
+.pagode{
+    font-size: 16px;
+}
+
+.quadrado3{
+    background: red;
+    height: 100px;
+    width: 100px;
+}
+
+
+.container {
+    display: flex; /* Usar flexbox para centralizar a div "quadrado3" */
+    justify-content: center; /* Centralizar a div "quadrado3" horizontalmente */
+    align-items: center; /* Centralizar a div "quadrado3" verticalmente */
+  }
+
+
+
