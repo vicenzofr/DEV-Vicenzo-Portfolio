@@ -6,12 +6,21 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Creatinin', sans-serif;
+    
+}
 
+.cursor:hover{
+  cursor: url("../imagens/cursor-de-mao.png"), auto;
+  /* Outras propriedades de estilo para o elemento .meu-elemento */
+  /* background-color: #9acd32;
+  color: white; */
 }
 
   body {
     background: #081b29;
     padding-top: 80px; /* Adjust the value as needed to prevent content overlap */
+    cursor: url("../imagens/New\ neon\ green.cur")16 16, auto;
+
 }
 
 
@@ -144,6 +153,20 @@
     position: absolute;
     top: 100px;
     right: 10px;
+    /* width: 200px;
+    height: 200px; */
+    transition: transform 0.2s; /* Adicione uma transição suave para tornar a mudança mais agradável */
+    cursor: pointer;
+  }
+  
+  .home-perfil:hover {
+    /* Defina a escala maior para a imagem no estado de hover */
+    transform: scale(0.92); /* Por exemplo, aumentamos em 20% */
+  }
+
+
+.home-perfil:hover{
+  
 }
 
 .center {
@@ -370,3 +393,16 @@ footer {
   right: 0;
   
 }
+
+
+::-webkit-scrollbar{
+  background-color: black;
+  width: 8px;
+
+}
+
+::-webkit-scrollbar-thumb{
+  width: 4px;
+  background: #9acd32;
+}
+
