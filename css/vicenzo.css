@@ -259,6 +259,44 @@
   font-size: 10px;
 }
 
+.saiba-mais{
+  border: 2px solid #00abf0;
+  background: transparent;
+  color: white;
+  height: 30px;
+  width: 70px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* .saiba-mais:hover{
+
+  transform: translateY(50px);
+} */
+
+/* .saiba-mais {
+  background: #eee;
+  border-radius: 80% / 10%;
+  transform: translateY(5%);
+  transition: .8s ease-in-out;
+}
+
+.saiba-mais label {
+  color: #573b8a;
+  transform: scale(.6);
+} */
+
+/* 
+button .saiba-mais:hover{
+  background-color: red;
+} */
+
+
+.saiba-mais::before{
+  opacity: 0;
+} 
+
+
 .linha{
   height: 3px;
   background:  yellowgreen;
@@ -421,6 +459,14 @@ footer {
   cursor: pointer;
 }
 
+
+.button-container button {
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
 #java1{
   color: yellow ;
 }
@@ -442,4 +488,7 @@ footer {
 
 #css1:hover, #html1:hover, #java1:hover{
   transform: translateY(-10px);
+  /* background-color: red; */
 }
+
+

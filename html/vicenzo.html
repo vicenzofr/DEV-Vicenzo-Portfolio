@@ -52,6 +52,7 @@
 
     <div class="center"  id="center">    
         <div class="calculadora">
+            
                 <a href="../html/calculadora.html">
                     <button class="botao"> 
                         <h2> Calculadora</h2>
@@ -59,6 +60,7 @@
                         <i class='bx bxl-html5' id="html"></i>
                         <i class='bx bxl-css3' id="css" ></i>
                         <i class='bx bxl-javascript' id="java"></i>
+                           <input type="button" placeholder="saiba mais" class="saiba-mais" >
                     </button>    
                 </a> 
         </div>
@@ -71,6 +73,8 @@
                     <i class='bx bxl-html5' id="html"></i>
                     <i class='bx bxl-css3' id="css" ></i>
                     <i class='bx bxl-javascript' id="java"></i>
+
+                    <input type="button" placeholder="Saiba Mais" class="saiba-mais">
                 </button>
             </a>
         </div>
@@ -83,16 +87,16 @@
 
 
         <div class="button-container">
-            <button class="button-html">
-                <i class='bx bxl-html5' id="html1"></i>
+            <button class="button-html" onclick="centerButton('html1')">
+                <i class='bx bxl-html5' id="html1" ></i>
             </button>
 
-            <button class="button-css">
+            <button class="button-css"  onclick="centerButton('css1')">
                 <i class='bx bxl-css3' id="css1" ></i>
 
             </button>
 
-            <button class="button-java">
+            <button class="button-java" onclick="centerButton('java1')">
                 <i class='bx bxl-javascript' id="java1"></i>
             </button>
         </div>
@@ -122,6 +126,9 @@
             © 2023 SeuSite. Todos os direitos reservados.
         </p>
     </footer> 
+
+
+    <scrip src="../javascript/vicenzo.js"defer > </script>
 
 
 </body>
