@@ -7,14 +7,14 @@
     font-family: 'Creatinin', sans-serif;
 }
 
-.cursor:hover{
+/* .cursor:hover{
   cursor: url("../imagens/cursor-de-mao.png"), auto;
-}
+} */
 
   body {
     background: #081b29;
     padding-top: 80px; /* Adjust the value as needed to prevent content overlap */
-    cursor: url("../imagens/New\ neon\ green.cur")16 16, auto;
+    /* cursor: url("../imagens/New\ neon\ green.cur")16 16, auto; */
 }
 
   header{
@@ -164,7 +164,7 @@
     top: 100px;
     right: 10px;
     transition: transform 0.2s; /* Adicione uma transição suave para tornar a mudança mais agradável */
-    cursor: pointer;
+    /* cursor: pointer; */
   }
 
   .home-perfil:hover {
