@@ -1,0 +1,53 @@
+@import url('https://fonts.cdnfonts.com/css/aero-matics');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Aero Matics', sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background:  #B22222	;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+
+.logo{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.navbar a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+}
+
+.navbar a:hover{
+    color: black;
+}
+
+.logo:hover{
+    transform: translateY(-6px);
+}
+/* .home{
+    display: flex;
+    height: 90vh;
+    padding: 0 10%;
+    align-items: center;
+    color: white;
+}
+
+.home-content{
+    max-width: 600px; 
+}*/
